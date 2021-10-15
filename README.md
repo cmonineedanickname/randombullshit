@@ -154,6 +154,13 @@ random collection of bash commands and other things
     $ pacman -Syu xorg-server xorg-xinput xorg-xinit
 
     # install kde
-    $ pacman -Syu plasma firefox terminator 
+    $ pacman -Syu plasma firefox dolphin terminator
+    $ pacman -Syu --asdeps ffmpegthumbs kdegraphics-thumbnailers
     $ systemctl enable sddm
     $ reboot / systemctl start sddm
+
+## some random packages, office, developing, etc.
+
+    # nmap htop tmux samba wireshark
+    # code dotnet-runtime dotnet-sdk nodejs npm python docker jre-openjdk jdk-openjk
+    # libreoffice-fresh
